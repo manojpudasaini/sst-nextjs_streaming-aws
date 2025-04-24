@@ -19,6 +19,7 @@ export default $config({
     new sst.aws.Nextjs("MyWeb", {
       environment: {
         OPENAI_API_KEY: process.env.OPENAI_API_KEY!,
+        COPILOT_API_KEY: process.env.COPILOT_API_KEY!,
       },
     });
   },
